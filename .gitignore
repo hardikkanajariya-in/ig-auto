@@ -15,3 +15,4 @@ reel-editor/failed/
 reel-editor/logs/
 web-ui/__pycache__/
 /scheduler/input
+/web-ui/node_modules
