@@ -7,7 +7,6 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
     "vite": "latest",
     "express": "latest"
   },
