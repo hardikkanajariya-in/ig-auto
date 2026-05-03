@@ -9,11 +9,25 @@ They do not share input or output folders.
 
 ## Scheduler
 
-Run:
+The scheduler is now split into:
+
+- local preparation/upload
+- GitHub Actions based publishing every 5 minutes
+
+Keep [scheduler/ig_auto_scheduler.py](/d:/ig-auto/scheduler/ig_auto_scheduler.py:1) as a backup of the older monolithic flow. The active files are:
+
+- [scheduler/ig_common.py](/d:/ig-auto/scheduler/ig_common.py:1)
+- [scheduler/ig_prepare_uploads.py](/d:/ig-auto/scheduler/ig_prepare_uploads.py:1)
+- [scheduler/ig_publish_once.py](/d:/ig-auto/scheduler/ig_publish_once.py:1)
+- [.github/workflows/instagram-publish.yml](/d:/ig-auto/.github/workflows/instagram-publish.yml:1)
+
+### Local Preparation
+
+Run locally to upload pending media to Cloudinary:
 
 ```powershell
 cd D:\ig-auto\scheduler
-python ig_auto_scheduler.py
+python ig_prepare_uploads.py
 ```
 
 Place scheduler media here:
@@ -28,7 +42,50 @@ Scheduler `data.json` lives here:
 D:\ig-auto\scheduler\data.json
 ```
 
-Published, failed, processed files, and logs stay inside the `scheduler` folder.
+After local preparation:
+
+1. Commit the updated `scheduler\data.json`
+2. Push it to GitHub
+3. GitHub Actions will publish due posts every 5 minutes
+
+`publish_at` values in `scheduler\data.json` are interpreted in `Asia/Kolkata` time.
+
+The preparation script:
+
+- uploads only posts that still need Cloudinary upload
+- does not create Instagram containers
+- does not publish to Instagram
+- does not delete local media
+
+The GitHub publish script:
+
+- runs once and exits
+- creates the Instagram container only at publish time
+- publishes only due posts that already have a stored `cloudinary_url`
+- does not require local media files on GitHub
+
+Because the Cloudinary URL is saved into `scheduler\data.json`, GitHub Actions can publish later without your original media file being present on the runner.
+
+### Required GitHub Secrets
+
+Configure these repository secrets:
+
+- `IG_USER_ID`
+- `IG_ACCESS_TOKEN`
+- `CLOUDINARY_CLOUD_NAME`
+- `CLOUDINARY_API_KEY`
+- `CLOUDINARY_API_SECRET`
+
+### GitHub Workflow
+
+The workflow is [instagram-publish.yml](/d:/ig-auto/.github/workflows/instagram-publish.yml:1).
+
+It:
+
+- runs every 5 minutes
+- also supports manual `workflow_dispatch`
+- runs `python ig_publish_once.py` inside `scheduler`
+- commits back `scheduler/data.json` when statuses change
 
 ## Reel Editor
 
