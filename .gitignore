@@ -3,3 +3,5 @@
 ig-keys
 .env
 /scheduler/input
+*.log
+*.pyc
