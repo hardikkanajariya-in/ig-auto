@@ -87,6 +87,37 @@ It:
 - runs `python ig_publish_once.py` inside `scheduler`
 - commits back `scheduler/data.json` when statuses change
 
+## Local Web UI
+
+The local control panel is built with Node.js, Express, and Vite. It does not use Flask.
+
+Run:
+
+```powershell
+cd D:\ig-auto\web-ui
+npm install
+npm run dev
+```
+
+Then open:
+
+```text
+http://127.0.0.1:5050
+```
+
+The UI can:
+
+- read `scheduler/data.json`
+- read files from `scheduler/input`
+- show pending, uploaded, published, failed, missing, outdated, and unsynced statuses
+- create new records in `data.json`
+- edit/delete/reset records
+- manually trigger upload preparation by running `scheduler/ig_prepare_uploads.py`
+- manually trigger one publish check by running `scheduler/ig_publish_once.py`
+- show recent scheduler logs
+
+The web UI is for local personal use only. It binds to localhost and should not be deployed publicly.
+
 ## Reel Editor
 
 Run:
