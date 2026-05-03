@@ -4,15 +4,19 @@
     "type": "image",
     "caption": "I build custom websites, web apps, mobile apps, dashboards, SaaS products, and business automation tools for startups and growing businesses.\n\nIf your business is still managing work manually, this is the right time to convert that process into a proper digital system.\n\nServices: Website Development | Custom Software | Mobile Apps | CRM | SaaS | Automation\n\nContact: hardik@hardikkanajariya.in\n#FullStackDeveloper #WebDevelopment #CustomSoftware #GujaratBusiness #Nextjs #Laravel #BusinessAutomation",
     "publish_at": "2026-05-03 19:30",
-    "status": "uploaded",
-    "updated_at": "2026-05-03 12:29:12",
-    "message": "Uploaded to Cloudinary and waiting for publish time.",
+    "status": "published",
+    "updated_at": "2026-05-03 22:33:59",
+    "message": "Published successfully.",
     "failed_at": "2026-05-03 12:27:45",
     "media_type": "image",
     "cloudinary_url": "https://res.cloudinary.com/dyjsrdrxa/image/upload/v1777791550/ig-auto/kgqktupqxriajwzpfx6x.png",
     "cloudinary_public_id": "ig-auto/kgqktupqxriajwzpfx6x",
     "cloudinary_resource_type": "image",
-    "uploaded_at": "2026-05-03 12:29:12"
+    "uploaded_at": "2026-05-03 12:29:12",
+    "creation_id": "17881182282559692",
+    "published_media_id": "18120260170637143",
+    "published_at": "2026-05-03 22:33:59",
+    "cloudinary_deleted": true
   },
   {
     "file": "day-02-why-custom-software.png",
