@@ -23,15 +23,19 @@
     "type": "image",
     "caption": "Many businesses do not need more staff first. They need better systems.\n\nA custom software can reduce manual entry, track work, manage customers, generate reports, and save hours every week.\n\nIf your team is using Excel, WhatsApp, and notebooks for everything, a simple custom dashboard can change the workflow completely.\n\n#CustomSoftware #BusinessAutomation #CRMDevelopment #SaaSDevelopment #IndianBusiness #Gujarat",
     "publish_at": "2026-05-05 19:30",
-    "status": "uploaded",
-    "updated_at": "2026-05-03 12:29:15",
-    "message": "Uploaded to Cloudinary and waiting for publish time.",
+    "status": "published",
+    "updated_at": "2026-05-05 20:03:07",
+    "message": "Published successfully.",
     "failed_at": "2026-05-03 12:22:37",
     "media_type": "image",
     "cloudinary_url": "https://res.cloudinary.com/dyjsrdrxa/image/upload/v1777791553/ig-auto/pj9e1mrv4qkthsa9xm3p.png",
     "cloudinary_public_id": "ig-auto/pj9e1mrv4qkthsa9xm3p",
     "cloudinary_resource_type": "image",
-    "uploaded_at": "2026-05-03 12:29:15"
+    "uploaded_at": "2026-05-03 12:29:15",
+    "creation_id": "17881495872559692",
+    "published_media_id": "18116080723684206",
+    "published_at": "2026-05-05 20:03:07",
+    "cloudinary_deleted": true
   },
   {
     "file": "day-03-nextjs-website.png",
