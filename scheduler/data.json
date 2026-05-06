@@ -42,15 +42,19 @@
     "type": "image",
     "caption": "A business website should not only look good. It should load fast, explain your services clearly, and convert visitors into inquiries.\n\nI build modern websites using Next.js, Tailwind CSS, and clean UI systems for better speed, SEO, and user experience.\n\nWant a website that feels premium and performs properly? Let’s discuss.\n\n#Nextjs #WebsiteDevelopment #TailwindCSS #WebDesigner #BusinessWebsite #GujaratDeveloper",
     "publish_at": "2026-05-06 19:30",
-    "status": "uploaded",
-    "updated_at": "2026-05-03 12:35:30",
-    "message": "Uploaded to Cloudinary and waiting for publish time.",
+    "status": "published",
+    "updated_at": "2026-05-06 21:11:47",
+    "message": "Published successfully.",
     "failed_at": "2026-05-03 12:26:17",
     "media_type": "image",
     "cloudinary_url": "https://res.cloudinary.com/dyjsrdrxa/image/upload/v1777791928/ig-auto/jcyxjp9pzefaohelljen.png",
     "cloudinary_public_id": "ig-auto/jcyxjp9pzefaohelljen",
     "cloudinary_resource_type": "image",
-    "uploaded_at": "2026-05-03 12:35:30"
+    "uploaded_at": "2026-05-03 12:35:30",
+    "creation_id": "17881667922559692",
+    "published_media_id": "18060479102467180",
+    "published_at": "2026-05-06 21:11:47",
+    "cloudinary_deleted": true
   },
   {
     "file": "day-04-laravel-backend.png",
