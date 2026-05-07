@@ -61,15 +61,19 @@
     "type": "image",
     "caption": "Laravel is still one of the best choices for business applications.\n\nAdmin panels, CRMs, billing systems, dashboards, booking systems, inventory systems, and internal tools can be built quickly and reliably with Laravel.\n\nI help businesses turn messy processes into structured web applications.\n\n#LaravelDeveloper #BackendDevelopment #PHPDeveloper #BusinessSoftware #CustomDashboard #WebAppDevelopment",
     "publish_at": "2026-05-07 19:30",
-    "status": "uploaded",
-    "updated_at": "2026-05-03 22:26:07",
-    "message": "Uploaded to Cloudinary and waiting for publish time.",
+    "status": "published",
+    "updated_at": "2026-05-07 20:43:42",
+    "message": "Published successfully.",
     "failed_at": "2026-05-03 12:43:58",
     "media_type": "image",
     "cloudinary_url": "https://res.cloudinary.com/dyjsrdrxa/image/upload/v1777827369/ig-auto/xlq8ovax7qrz647mndo3.png",
     "cloudinary_public_id": "ig-auto/xlq8ovax7qrz647mndo3",
     "cloudinary_resource_type": "image",
-    "uploaded_at": "2026-05-03 22:26:07"
+    "uploaded_at": "2026-05-03 22:26:07",
+    "creation_id": "17881887312559692",
+    "published_media_id": "18149243311430771",
+    "published_at": "2026-05-07 20:43:42",
+    "cloudinary_deleted": true
   },
   {
     "file": "day-05-mobile-apps.png",
