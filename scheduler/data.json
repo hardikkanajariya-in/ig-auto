@@ -80,15 +80,19 @@
     "type": "image",
     "caption": "Your customers are already on mobile. Your business system should be there too.\n\nI build mobile app experiences for customers, staff, admins, delivery teams, communities, and business operations.\n\nFrom MVP to full app ecosystem, the goal is simple: make the workflow easier and faster.\n\n#MobileAppDevelopment #ReactNative #AppDeveloper #StartupMVP #BusinessApp #Gujarat",
     "publish_at": "2026-05-08 19:30",
-    "status": "uploaded",
-    "updated_at": "2026-05-03 22:26:10",
-    "message": "Uploaded to Cloudinary and waiting for publish time.",
+    "status": "published",
+    "updated_at": "2026-05-08 20:56:22",
+    "message": "Published successfully.",
     "failed_at": "2026-05-03 12:43:59",
     "media_type": "image",
     "cloudinary_url": "https://res.cloudinary.com/dyjsrdrxa/image/upload/v1777827372/ig-auto/b6srupe1nm4j0b0gm0is.png",
     "cloudinary_public_id": "ig-auto/b6srupe1nm4j0b0gm0is",
     "cloudinary_resource_type": "image",
-    "uploaded_at": "2026-05-03 22:26:10"
+    "uploaded_at": "2026-05-03 22:26:10",
+    "creation_id": "17882050656559692",
+    "published_media_id": "18008476289872485",
+    "published_at": "2026-05-08 20:56:22",
+    "cloudinary_deleted": true
   },
   {
     "file": "day-06-saas-product.png",
