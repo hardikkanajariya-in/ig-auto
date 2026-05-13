@@ -159,15 +159,19 @@
     "type": "image",
     "caption": "A good admin dashboard saves time every single day.\n\nInstead of searching through files, chats, and spreadsheets, your team gets one place to manage customers, orders, payments, reports, and tasks.\n\nThat is the power of custom dashboard development.\n\n#AdminDashboard #DashboardDesign #CustomSoftware #BusinessAutomation #WebApp #FullStackDeveloper",
     "publish_at": "2026-05-13 19:30",
-    "status": "uploaded",
-    "updated_at": "2026-05-03 22:26:22",
-    "message": "Uploaded to Cloudinary and waiting for publish time.",
+    "status": "published",
+    "updated_at": "2026-05-13 21:32:16",
+    "message": "Published successfully.",
     "failed_at": "2026-05-03 12:43:59",
     "media_type": "image",
     "cloudinary_url": "https://res.cloudinary.com/dyjsrdrxa/image/upload/v1777827384/ig-auto/iwxrugadv26znmm8fepp.png",
     "cloudinary_public_id": "ig-auto/iwxrugadv26znmm8fepp",
     "cloudinary_resource_type": "image",
-    "uploaded_at": "2026-05-03 22:26:22"
+    "uploaded_at": "2026-05-03 22:26:22",
+    "creation_id": "17882881356559692",
+    "published_media_id": "18084658382570005",
+    "published_at": "2026-05-13 21:32:16",
+    "cloudinary_deleted": true
   },
   {
     "file": "day-11-white-label.png",
