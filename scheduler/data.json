@@ -208,15 +208,19 @@
     "type": "image",
     "caption": "Small businesses also deserve premium digital presence.\n\nA clean website with proper services, trust sections, contact flow, WhatsApp action, fast loading, and SEO structure can bring better inquiries.\n\nYour website should work like a digital sales assistant.\n\n#SmallBusinessWebsite #WebsiteDesign #GujaratBusiness #WebDeveloperIndia #LocalSEO #BusinessGrowth",
     "publish_at": "2026-05-16 19:30",
-    "status": "uploaded",
-    "updated_at": "2026-05-03 22:26:33",
-    "message": "Uploaded to Cloudinary and waiting for publish time.",
+    "status": "published",
+    "updated_at": "2026-05-16 19:52:37",
+    "message": "Published successfully.",
     "failed_at": "2026-05-03 12:43:59",
     "media_type": "image",
     "cloudinary_url": "https://res.cloudinary.com/dyjsrdrxa/image/upload/v1777827395/ig-auto/jrr6oe0pkul0per3btmw.png",
     "cloudinary_public_id": "ig-auto/jrr6oe0pkul0per3btmw",
     "cloudinary_resource_type": "image",
-    "uploaded_at": "2026-05-03 22:26:33"
+    "uploaded_at": "2026-05-03 22:26:33",
+    "creation_id": "17883350178559692",
+    "published_media_id": "18075153197249036",
+    "published_at": "2026-05-16 19:52:37",
+    "cloudinary_deleted": true
   },
   {
     "file": "day-14-api-integration.png",
